@@ -5,12 +5,17 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{	int x;
+{
+	int x;
 
-	for (x = 10; x <= 99; x++)
+	for (x = 48; n <= 57; n++)
 	{
-		putchar(x);
+		putchar(n);
+		if (n == 57)
+			break;
 		putchar(',');
+		putchar(32);
 	}
+	putchar('\n');
 	return (0);
 }
