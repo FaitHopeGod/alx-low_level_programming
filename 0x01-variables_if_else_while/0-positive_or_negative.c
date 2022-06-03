@@ -3,7 +3,11 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/*betty style doc for function main goes there */
+/*betty style doc for function main goes there
+ *
+ * THIS IS APROGRAM THAT IDENTIFY WETHER A NUMBER IS
+ * POSITIVE NEGATIVE OR ZERO
+ */
 
 int main(void)
 {
