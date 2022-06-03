@@ -5,11 +5,20 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{	int x;
-	for (x = 'a'; x <= 'z'; x++)
+{	int x, n;
+	char z;
+	z = 'z';
+	n = 0;
+	for (x = 'a'; x <= z; x++)
+	{
 		putchar(x);
-	for (x = 'A'; x <= 'Z'; x++)
-		putchar(x);
+		if (x == z && n == 0)
+		{	
+			n = 1;
+			x = '@';
+			z = 'Z';
+		}
+	}
 	putchar('\n');
 	return (0);
 }
