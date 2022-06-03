@@ -2,8 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * THIS IS APROGRAM THAT IDENTIFY WETHER A NUMBER IS
- * POSITIVE NEGATIVE OR ZERO
+ *main - Entry point
+ *
+ * Return: ALways 0 (success)
  */
 int main(void)
 {
