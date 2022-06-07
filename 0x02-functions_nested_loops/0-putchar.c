@@ -9,6 +9,7 @@
 int main(void)
 {
 	char pu[8];
+
 	pu[0] = '_';
 	pu[1] = 'p';
 	pu[2] = 'u';
@@ -17,10 +18,10 @@ int main(void)
 	pu[5] = 'h';
 	pu[6] = 'a';
 	pu[7] = 'r';
-	for(int i = 0; i < 8; i++)
-			{
-			_putchar(pu[i]);
-			}
+	for (int i = 0; i < 8; i++)
+	{
+		_putchar(pu[i]);
+	}
 
 	return (0);
 }
