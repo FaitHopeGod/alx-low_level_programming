@@ -18,9 +18,12 @@ int main(void)
 	pu[5] = 'h';
 	pu[6] = 'a';
 	pu[7] = 'r';
-	for (int i = 0; i < 8; i++)
+	int i = 0;
+
+	while (i < 8)
 	{
 		_putchar(pu[i]);
+		i++;
 	}
 
 	return (0);
