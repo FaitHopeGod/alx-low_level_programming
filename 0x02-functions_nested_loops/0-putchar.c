@@ -8,24 +8,14 @@
 
 int main(void)
 {
-	char pu[8];
-	int i;
-
-	pu[0] = '_';
-	pu[1] = 'p';
-	pu[2] = 'u';
-	pu[3] = 't';
-	pu[4] = 'c';
-	pu[5] = 'h';
-	pu[6] = 'a';
-	pu[7] = 'r';
-	i = 0;
-
-	while (i < 8)
-	{
-		_putchar(pu[i]);
-		i++;
-	}
-
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
 	return (0);
 }
