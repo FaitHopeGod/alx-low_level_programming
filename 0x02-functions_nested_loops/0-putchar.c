@@ -9,6 +9,7 @@
 int main(void)
 {
 	char pu[8];
+	int i;
 
 	pu[0] = '_';
 	pu[1] = 'p';
@@ -18,7 +19,7 @@ int main(void)
 	pu[5] = 'h';
 	pu[6] = 'a';
 	pu[7] = 'r';
-	int i = 0;
+	i = 0;
 
 	while (i < 8)
 	{
