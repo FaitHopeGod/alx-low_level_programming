@@ -1,18 +1,5 @@
 #include "main.h"
 /**
- * main - that call print_alphabet function
- *
- * Return: Always return (0)
- */
-void print_alphabet(void);
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-
-/**
  * print_alphabet - printing a-z
  *
  * Return: No return it is void.
@@ -28,4 +15,10 @@ void print_alphabet(void)
 		alph++;
 	}
 	_putchar('\n');
+}
+
+int main(void)
+{
+	print_alphabet();
+	return (0);
 }
