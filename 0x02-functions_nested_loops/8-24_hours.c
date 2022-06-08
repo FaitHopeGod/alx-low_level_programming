@@ -9,44 +9,17 @@ void jack_bauer(void)
 	int hrs, sec;
 
 	hrs = 0;
-	sec = 0;
 
 	while (hrs <= 23)
 	{
+		sec = 0;
 		while (sec <= 59)
 		{
-			if (hrs < 10 && sec < 10)
-			{
-				_putchar('0');
-				_putchar(hrs + '0');
-				_putchar(':');
-				_putchar('0');
-				_putchar(sec + '0');
-				_putchar('\n');
-			}
-			else if (hrs < 10 && sec >= 10)
-			{
-				_putchar('0');
-				_putchar(hrs + '0');
-				_putchar(':');
-				_putchar(sec + '0');
-				_putchar('\n');
-			}
-			else if (hrs >= 10 && sec < 10)
-			{				
-				_putchar(hrs + '0');
-				_putchar(':');
-				_putchar('0');
-				_putchar(sec + '0');
-				_putchar('\n');
-			}
-			else if (hrs >= 10 && sec >= 10)
-			{
-				_putchar(hrs + '0');
-				_putchar(':');
-				_putchar(sec + '0');
-				_putchar('\n');
-			}
+			_putchar((hrs / 10) + '0');
+			_putchar((hrs % 10) + '0');
+			_putchar(':');
+			_putchar((sec % 10) + '0');
+			_putchar((sec % 10) + '0');
 			sec++;
 		}
 		hrs++;
