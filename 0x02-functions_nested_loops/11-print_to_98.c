@@ -22,15 +22,19 @@ void print_to_98(int n)
 			if (n > -100)
 			{
 				_putchar('-');
-				_putchar(n / 10 + '0');
-				_putchar(n % 10 + '0');
+				_putchar((-1 * n) / 10 + '0');
+				_putchar((-1 * n) % 10 + '0');
+				_putchar(',');
+				_putchar(' ');
 			}
 			else 
 			{
 				_putchar('-');
-				_putchar(n / 100 + '0');
-				_putchar(n / 10 + '0');
-				_putchar(n % 10 + '0');
+				_putchar((-1 * n) / 100 + '0');
+				_putchar((-1 * n) / 10 + '0');
+				_putchar((-1 * n) % 10 + '0');
+				_putchar(',');
+				_putchar(' ');
 			}
 
 		}
