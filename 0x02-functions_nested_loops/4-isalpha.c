@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_islower - identify lowercase charachters
+ *_isalpha - identify lowercase charachters
  *
  *@c: integer parameter
  *
