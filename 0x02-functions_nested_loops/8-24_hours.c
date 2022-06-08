@@ -6,9 +6,13 @@
  */
 void jack_bauer(void)
 {
-	for (int hrs = 0; hrs <= 23; hrs++)
+	int hrs, sec;
+
+	hrs, sec = 0;
+
+	while (hrs <= 23)
 	{
-		for (int sec = 0; sec <= 59; sec++)
+		while (sec <= 59)
 		{
 			if (hrs < 10 && sec < 10)
 				_putchar('0' + hrs + ':' + '0' + sec);
