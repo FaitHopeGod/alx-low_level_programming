@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_add - computes the sum of two an integer
+ *add - computes the sum of two an integer
  *
  *@a: integer parameter
  *@b: integer parameter
@@ -10,6 +10,6 @@
 
 int add(int a, int b)
 {
-	return a+b;
+	return (a + b);
 
 }
