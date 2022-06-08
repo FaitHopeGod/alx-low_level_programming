@@ -17,19 +17,35 @@ void jack_bauer(void)
 		{
 			if (hrs < 10 && sec < 10)
 			{
-				_putchar('0' + hrs + ':' + '0' + sec);
+				_putchar('0');
+				_putchar(hrs + '0');
+				_putchar(':');
+				_putchar('0');
+				_putchar(sec + '0');
+				_putchar('\n');
 			}
 			else if (hrs < 10 && sec >= 10)
 			{
-				_putchar('0' + hrs + ':' + sec);
+				_putchar('0');
+				_putchar(hrs + '0');
+				_putchar(':');
+				_putchar(sec + '0');
+				_putchar('\n');
 			}
 			else if (hrs >= 10 && sec < 10)
-			{
-				_putchar(hrs + ':' + '0' + sec);
+			{				
+				_putchar(hrs + '0');
+				_putchar(':');
+				_putchar('0');
+				_putchar(sec + '0');
+				_putchar('\n');
 			}
 			else if (hrs >= 10 && sec >= 10)
 			{
-				_putchar(hrs + ':' + sec);
+				_putchar(hrs + '0');
+				_putchar(':');
+				_putchar(sec + '0');
+				_putchar('\n');
 			}
 			sec++;
 		}
