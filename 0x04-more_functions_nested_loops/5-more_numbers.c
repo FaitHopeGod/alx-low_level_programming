@@ -2,13 +2,13 @@
 #include "main.h"
 #include <unistd.h>
 /**
- *most_numbers - Display 0-14 x10
+ *more_numbers - Display 0-14 x10
  *
  * Return: Nothing
  *
  */
 
-void most_numbers(void)
+void more_numbers(void)
 {
 	for (int i = 0; i < 10; i++)
 	{
