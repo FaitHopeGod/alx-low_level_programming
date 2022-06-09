@@ -18,5 +18,5 @@ void print_numbers(void)
 		i++;
 	}
 	if (i == 10)
-		_putchar('$');
+		_putchar('\n');
 }
