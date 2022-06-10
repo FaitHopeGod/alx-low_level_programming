@@ -4,15 +4,15 @@
  *
  * Return: Nothing
  *
- * @n: integer parameter
+ * @size: integer parameter
  *
  */
 
-void print_square(int n)
+void print_square(int size)
 {
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i < size; i++)
 	{
-		for (int j = 0; j < n; j++)
+		for (int j = 0; j < size; j++)
 			_putchar('#');
 		_putchar ('\n');
 	}
