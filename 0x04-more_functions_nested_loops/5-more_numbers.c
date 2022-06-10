@@ -1,6 +1,4 @@
-#include <stdio.h>
 #include "main.h"
-#include <unistd.h>
 /**
  *more_numbers - Display 0-14 x10
  *
