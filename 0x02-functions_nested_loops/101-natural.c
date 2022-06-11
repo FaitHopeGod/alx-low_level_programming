@@ -4,7 +4,7 @@
  *
  * Return: No return it is void.
  */
-int main (void)
+int main(void)
 {
 	int i, sum;
 
