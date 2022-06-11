@@ -24,11 +24,11 @@ void times_table(void)
 				}
 				_putchar(',');
 			}
-			else (i == 9 || j == 9)
-				{
-					_putchar((i * j) / 10 + '0');
-					_putchar((i * j) % 10 + '0');
-				}
+			else
+			{
+				_putchar((i * j) / 10 + '0');
+				_putchar((i * j) % 10 + '0');
 			}
-			_putchar('\n');
+		}
+		_putchar('\n');
 }
