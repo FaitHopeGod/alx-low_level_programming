@@ -14,9 +14,7 @@ int main(void)
 	f2 = 1;
 	ff = f1 + f2;
 
-	printf("%ld, %ld, ", f1, f2);
-
-	for (i = 3; i <= n; ++i)
+	for (i = 1; i < n; ++i)
 	{
 		printf("%ld, ", ff);
 		f1 = f2;
@@ -24,5 +22,6 @@ int main(void)
 		ff = f1 + f2;
 
 	}
+	printf("%ld\n", ff);
 	return (0);
 }
