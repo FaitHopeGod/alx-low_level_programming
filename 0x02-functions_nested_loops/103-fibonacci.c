@@ -6,18 +6,22 @@
  */
 int main(void)
 {
-	long int f1, f2, ff;
+	int i;
+	long int f1, f2, ff, ev_ff;
 
-	f1 = 2;
-	f2 = 4;
-	ff = f1 + f2;
-	while (ff < 4000000)
+	f1, ev_ff = 0;
+	f2 = 1;
+
+	for(i = 0; i < 50; i++)
 	{
-		f1 = f2;
-		f2 = ff;
 		ff = f1 + f2;
-
+		f1 = f2;
+		f2 =ff;
+		if (ff % 2 == 0 && ff < 4000000)
+		{
+			ev_ff = ev_ff + ff;
+		}
 	}
-	printf("%ld\n", ff);
+	printf("%ld\n", ev_ff);
 	return (0);
 }
