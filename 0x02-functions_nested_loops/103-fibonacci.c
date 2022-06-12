@@ -6,10 +6,8 @@
  */
 int main(void)
 {
-	int i, n;
 	long int f1, f2, ff;
 
-	n = 50;
 	f1 = 0;
 	f2 = 1;
 	ff = f1 + f2;
@@ -21,6 +19,5 @@ int main(void)
 		ff = f1 + f2;
 
 	}
-	//printf("%ld\n", ff);
 	return (0);
 }
