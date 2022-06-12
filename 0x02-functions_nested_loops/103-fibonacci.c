@@ -8,8 +8,8 @@ int main(void)
 {
 	long int f1, f2, ff;
 
-	f1 = 0;
-	f2 = 2;
+	f1 = 2;
+	f2 = 4;
 	ff = f1 + f2;
 	while (ff < 4000000)
 	{
