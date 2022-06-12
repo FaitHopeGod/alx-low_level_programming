@@ -9,15 +9,15 @@ int main(void)
 	long int f1, f2, ff;
 
 	f1 = 0;
-	f2 = 1;
+	f2 = 2;
 	ff = f1 + f2;
-	while (ff <= 4000000)
+	while (ff < 4000000)
 	{
-		printf("%ld, ", ff);
 		f1 = f2;
 		f2 = ff;
 		ff = f1 + f2;
 
 	}
+	printf("%ld\n", ff);
 	return (0);
 }
