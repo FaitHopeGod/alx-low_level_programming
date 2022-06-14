@@ -4,14 +4,12 @@
  * _atoi- convert a string to an integer
  *
  * @s: character pointer
- * 
  * Return: Integer
  */
 int _atoi(char *s)
 {
 	int i;
 	unsigned int num;
-       
 	i = 1;
 	num = 0;
 	do{
