@@ -7,7 +7,7 @@
  * 
  * Return: Integer
  */
-int atoi(char *s)
+int _atoi(char *s)
 {
 	int i;
 	unsigned int num;
