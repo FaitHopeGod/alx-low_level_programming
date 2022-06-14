@@ -3,16 +3,16 @@
 /**
  * print_rev- print a string in reverse order
  *
- * @str: character pointer
+ * @s: character pointer
  */
 void print_rev(char *s)
-{	
+{
 	int i;
 
 	i = 0;
 	while (*(s + i) != '\0')
 		i++;
-	i= i-1;
+	i = i - 1;
 	while (i >= 0)
 	{
 		printf("%c", *(s + i));
