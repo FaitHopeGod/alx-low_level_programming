@@ -8,7 +8,7 @@
  *
  * Return: concatenated character
  */
-char *_strncat(char *dest, char *src, int n);
+char *_strncat(char *dest, char *src, int n)
 {
 	int i, d_sz;
 
@@ -16,14 +16,9 @@ char *_strncat(char *dest, char *src, int n);
 	d_sz = 0;
 	while (*(dest + d_sz) != '\0')
 		d_sz++;
-
-	while (src[i] != '\0')
-	{
-		dest[d_sz] = src[i];
-		d_sz++;
-		i++;
-	}
-	dest[d_sz] = '\0';
+	for (i = 0 ; i < n && src[i] != '\0' ; i++)
+		dest[d_sz + i] = src[i];
+	dest[d_sz + i] = '\0';
 	return (dest);
 
 }
