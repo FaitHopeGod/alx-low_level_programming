@@ -18,12 +18,12 @@ int _strcmp(char *s1, char *s2)
 		i++;
 	while (*(s2 + j) != '\0')
 		j++;
-	if (i < j)
-		res = -15;
+	if (i > j)
+		res = 15;
 	else if (i == j)
 		res = 0;
-	else
-		res = 15;
+	else if (i < j)
+		res = -15;
 	return (res);
 
 }
