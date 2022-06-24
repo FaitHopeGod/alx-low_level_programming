@@ -11,7 +11,7 @@ int comp_sqrt(int i, int j)
 		if (j * j == i)
 			return (j);
 		else if (j > i / j)
-			return (comp_sqrt(i, j - 1)
+			return (comp_sqrt(i, j - 1));
 		else if (j < i / j)
 			return (comp_sqrt(i, j + 1));
 		else
