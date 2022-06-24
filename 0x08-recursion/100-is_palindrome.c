@@ -41,7 +41,6 @@ int check_palindrome(char *s, int len, int index)
 *@s: string to check
 *Return: true if the given string is a palindrome
 */
-
 int is_palindrome(char *s)
 {
 	int index = 0;
