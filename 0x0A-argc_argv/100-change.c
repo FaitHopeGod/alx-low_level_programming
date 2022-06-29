@@ -17,7 +17,7 @@ int main(int argc, char **argv)
 	int value[5] = {25, 10, 5, 2, 1};
 
 	coins = 0;
-	amount = atoi(argv[1]);
+	amount = atoi(argv[argc - 1]);
 	if (argc != 2)
 	{
 		printf("Error\n");
